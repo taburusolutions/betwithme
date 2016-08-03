@@ -33,7 +33,7 @@
         <div class="row">
             <div class="span2">
                 <a href="index-2.html">
-                    <img src="/betwithme.online/assets/img/logo-small.png" alt="logo" title="logo" class="logo">
+                    <img src="{{asset('/assets/img/logo-small.png')}}" alt="logo" title="logo" class="logo">
                 </a>
             </div>
             <div class="span8">
@@ -156,7 +156,7 @@
     <div id="my-carousel" class="carousel slide">
         <div class="carousel-inner">
             <div class="active item">
-                <img src="/betwithme.online/assets/img/old_no7_1200x480.jpg" alt="Image Alternative text" title="Old No7" />
+                <img src="{{asset('/assets/img/old_no7_1200x480.jpg')}}" alt="Image Alternative text" title="Old No7" />
                 <div class="carousel-caption countdown-caption">
                     <h3>Jack Daniels Huge Pack</h3>
                     <!-- COUNTDOWN -->
@@ -164,7 +164,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="/betwithme.online/assets/img/iphone_5_ipad_mini_ipad_3_1200x480.jpg" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" />
+                <img src="{{asset('/assets/img/iphone_5_ipad_mini_ipad_3_1200x480.jpg')}}" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" />
                 <div class="carousel-caption countdown-caption">
                     <h3>Apple Big Deal</h3>
                     <!-- COUNTDOWN -->
@@ -172,7 +172,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="/betwithme.online/assets/img/the_best_mode_of_transport_here_in_maldives_1200x480.jpg" alt="Image Alternative text" title="the best mode of transport here in maldives" />
+                <img src="{{asset('/assets/img/the_best_mode_of_transport_here_in_maldives_1200x480.jpg')}}" alt="Image Alternative text" title="the best mode of transport here in maldives" />
                 <div class="carousel-caption countdown-caption">
                     <h3>Finshing in Maldives</h3>
                     <!-- COUNTDOWN -->
@@ -299,7 +299,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/aspen_lounge_chair_800x600.jpg" alt="Image Alternative text" title="Aspen Lounge Chair" />
+                        <img src="{{asset('/assets/img/aspen_lounge_chair_800x600.jpg')}}" alt="Image Alternative text" title="Aspen Lounge Chair" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Aspen Lounge Chair</h5>
                             <p class="coupon-desciption">A ante ipsum curabitur diam nascetur gravida penatibus</p>
@@ -313,7 +313,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/waipio_valley_800x600.jpg" alt="Image Alternative text" title="waipio valley" />
+                        <img src="{{asset('/assets/img/waipio_valley_800x600.jpg')}}" alt="Image Alternative text" title="waipio valley" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Awesome Vacation</h5>
                             <p class="coupon-desciption">Facilisis pulvinar orci in eget lacinia pulvinar habitasse</p>
@@ -327,7 +327,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/ana_29_800x600.jpg" alt="Image Alternative text" title="Ana 29" />
+                        <img src="{{asset('/assets/img/ana_29_800x600.jpg')}}" alt="Image Alternative text" title="Ana 29" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Hot Summer Collection</h5>
                             <p class="coupon-desciption">Nostra odio ridiculus lacinia erat semper mattis auctor</p>
@@ -341,7 +341,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/old_no7_800x600.jpg" alt="Image Alternative text" title="Old No7" />
+                        <img src="{{asset('/assets/img/old_no7_800x600.jpg')}}" alt="Image Alternative text" title="Old No7" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Jack Daniels Huge Pack</h5>
                             <p class="coupon-desciption">Habitasse aenean quam pulvinar lacus tempus ultricies nunc</p>
@@ -355,7 +355,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/a_turn_800x600.jpg" alt="Image Alternative text" title="a turn" />
+                        <img src="{{asset('/assets/img/a_turn_800x600.jpg')}}" alt="Image Alternative text" title="a turn" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Diving with Sharks</h5>
                             <p class="coupon-desciption">Mus integer commodo quam class tristique natoque sociosqu</p>
@@ -369,7 +369,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/amaze_800x600.jpg" alt="Image Alternative text" title="AMaze" />
+                        <img src="{{asset('/assets/img/amaze_800x600.jpg')}}" alt="Image Alternative text" title="AMaze" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">New Glass Collection</h5>
                             <p class="coupon-desciption">Curae convallis orci dui gravida turpis facilisis tortor</p>
@@ -383,7 +383,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/the_hidden_power_of_the_heart_800x600.jpg" alt="Image Alternative text" title="The Hidden Power of the Heart" />
+                        <img src="{{asset('/assets/img/the_hidden_power_of_the_heart_800x600.jpg')}}" alt="Image Alternative text" title="The Hidden Power of the Heart" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Beach Holidays</h5>
                             <p class="coupon-desciption">Praesent mus eros sit ipsum potenti enim faucibus</p>
@@ -397,7 +397,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/the_best_mode_of_transport_here_in_maldives_800x600.jpg" alt="Image Alternative text" title="the best mode of transport here in maldives" />
+                        <img src="{{asset('/assets/img/the_best_mode_of_transport_here_in_maldives_800x600.jpg')}}" alt="Image Alternative text" title="the best mode of transport here in maldives" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Finshing in Maldives</h5>
                             <p class="coupon-desciption">Senectus hac nibh conubia sociosqu nostra interdum arcu</p>
@@ -411,7 +411,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/our_coffee_miss_u_800x600.jpg" alt="Image Alternative text" title="Our Coffee miss u" />
+                        <img src="{{asset('/assets/img/our_coffee_miss_u_800x600.jpg')}}" alt="Image Alternative text" title="Our Coffee miss u" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Coffe Shop Discount</h5>
                             <p class="coupon-desciption">Dictumst amet tempor magnis nostra enim vivamus tortor</p>
@@ -425,7 +425,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/hot_mixer_800x600.jpg" alt="Image Alternative text" title="Hot mixer" />
+                        <img src="{{asset('/assets/img/hot_mixer_800x600.jpg')}}" alt="Image Alternative text" title="Hot mixer" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Modern DJ Set</h5>
                             <p class="coupon-desciption">Amet magnis fames imperdiet lobortis amet eu sapien</p>
@@ -439,7 +439,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/green_furniture_800x600.jpg" alt="Image Alternative text" title="Green Furniture" />
+                        <img src="{{asset('/assets/img/green_furniture_800x600.jpg')}}" alt="Image Alternative text" title="Green Furniture" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Green Furniture Pack</h5>
                             <p class="coupon-desciption">Magna at ridiculus mi turpis himenaeos molestie porta</p>
@@ -453,7 +453,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/cascada_800x600.jpg" alt="Image Alternative text" title="cascada" />
+                        <img src="{{asset('/assets/img/cascada_800x600.jpg')}}" alt="Image Alternative text" title="cascada" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Adventure in Woods</h5>
                             <p class="coupon-desciption">Pellentesque habitasse nisi aliquet bibendum commodo etiam suscipit</p>
@@ -467,7 +467,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/my_ice_cream_and_your_ice_cream_spoons_800x600.jpg" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
+                        <img src="{{asset('/assets/img/my_ice_cream_and_your_ice_cream_spoons_800x600.jpg')}}" alt="Image Alternative text" title="My Ice Cream and Your Ice Cream Spoons" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Lovely Ice Cream Spoons</h5>
                             <p class="coupon-desciption">Eleifend per velit nibh faucibus feugiat lacus auctor</p>
@@ -481,7 +481,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/iphone_5_ipad_mini_ipad_3_800x600.jpg" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" />
+                        <img src="{{asset('/assets/img/iphone_5_ipad_mini_ipad_3_800x600.jpg')}}" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Apple Big Deal</h5>
                             <p class="coupon-desciption">Dapibus vulputate hendrerit et penatibus aenean molestie urna</p>
@@ -495,7 +495,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="/betwithme.online/assets/img/urbex_esch_lux_with_laney_and_laaaaag_800x600.jpg" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
+                        <img src="{{asset('/assets/img/urbex_esch_lux_with_laney_and_laaaaag_800x600.jpg')}}" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Canon Camera</h5>
                             <p class="coupon-desciption">Quisque montes pretium taciti mattis laoreet purus vel</p>

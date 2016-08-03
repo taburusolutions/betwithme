@@ -196,5 +196,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="beta.betwithme.online node_modules" level="project" />
   </component>
 </module>
