@@ -158,28 +158,27 @@
     <!-- START BOOTSTRAP CAROUSEL -->
     <div id="my-carousel" class="carousel slide">
         <div class="carousel-inner">
+            <div class="item">
+                <div class="carousel-caption countdown-caption">
+                    <h3>Hull City v/s Leicester City</h3>
+                    <!-- COUNTDOWN -->
+                    <div data-countdown="Aug 13, 2016 12:30" class="countdown"></div><a href="#" class="btn btn-primary btn-large">Bet</a>
+                </div>
+            </div>
             <div class="active item">
-                <img src="{{asset('/assets/img/old_no7_1200x480.jpg')}}" alt="Image Alternative text" title="Old No7" />
+                <img src="{{asset('/assets/img/slides/liverpool-v-arsenal-2016.jpg')}}" alt="Arsenal FC v/s Liverpool FC" title="Arsenal FC v/s Liverpool FC" />
                 <div class="carousel-caption countdown-caption">
-                    <h3>Jack Daniels Huge Pack</h3>
+                    <h3>Arsenal FC v/s Liverpool FC</h3>
                     <!-- COUNTDOWN -->
-                    <div data-countdown="Aug 25, 2013 5:30:00" class="countdown"></div><a href="#" class="btn btn-primary btn-large">Save 70%</a>
+                    <div data-countdown="Aug 14, 2016 16:00:00" class="countdown"></div><a href="#" class="btn btn-primary btn-large">Bet</a>
                 </div>
             </div>
             <div class="item">
-                <img src="{{asset('/assets/img/iphone_5_ipad_mini_ipad_3_1200x480.jpg')}}" alt="Image Alternative text" title="iPhone 5 iPad mini iPad 3" />
+                <img src="{{asset('/assets/img/slides/chelsea-v-west-ham-united-2016.jpg')}}" alt="Chelsea FC v/s West Ham United" title="Chelsea FC v/s West Ham United" />
                 <div class="carousel-caption countdown-caption">
-                    <h3>Apple Big Deal</h3>
+                    <h3>Chelsea FC v/s West Ham United</h3>
                     <!-- COUNTDOWN -->
-                    <div data-countdown="Aug 30, 2013 10:45:00" class="countdown"></div><a href="#" class="btn btn-primary btn-large">Save 50%</a>
-                </div>
-            </div>
-            <div class="item">
-                <img src="{{asset('/assets/img/the_best_mode_of_transport_here_in_maldives_1200x480.jpg')}}" alt="Image Alternative text" title="the best mode of transport here in maldives" />
-                <div class="carousel-caption countdown-caption">
-                    <h3>Finshing in Maldives</h3>
-                    <!-- COUNTDOWN -->
-                    <div data-countdown="Sep 2, 2013 22:00:00" class="countdown"></div><a href="#" class="btn btn-primary btn-large">Save 30%</a>
+                    <div data-countdown="Aug 15, 2016 20:00:00" class="countdown"></div><a href="#" class="btn btn-primary btn-large">Bet</a>
                 </div>
             </div>
         </div>
@@ -275,12 +274,13 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="{{asset('/assets/img/game_profile/geingob.jpg')}}" alt="Image Alternative text" title="Gamer Chick" />
+                        <img src="{{asset('/assets/img/game_profile/liverpool-v-arsenal-2016.jpg')}}" alt="Image Alternative text" title="Gamer Chick" />
                         <div class="coupon-inner">
-                            <h5 class="coupon-title">Harambee Prosperity Plan</h5>
-                            <p class="coupon-desciption">Nec varius ante aptent augue dictumst lacinia at</p>
-                            <div class="coupon-meta"><span class="coupon-time">10 days 35 h remaining</span><span class="coupon-save">Save 40%</span>
-                                <div class="coupon-price"><span class="coupon-old-price">272$</span><span class="coupon-new-price">163$</span>
+                            <h5 class="coupon-title">WHO WILL WIN BETWEEN ARSENAL V/S LIVERPOOL</h5>
+                            <p class="coupon-desciption">Sport Bet - 14 August 2016 12:00 CAT <br/>Who will win between the match between Arsenal FC and Liverpool FC</p>
+
+                            <div class="coupon-meta"><span class="coupon-time">3 days 00 h remaining</span>Wensey Khoases
+                                <div class="coupon-price"><span class="coupon-old-price"></span><span class="coupon-new-price">BET</span>
                                 </div>
                             </div>
                         </div>
@@ -294,7 +294,7 @@
                             <h5 class="coupon-title">LIVERPOOL FC WILL WIN THE LEAGUE</h5>
                             <p class="coupon-desciption">Custom Bet - 01 Jan 2017 12:00 CAT <br/>I bet that Liverpool FC will finally win the Barclays Premier League(2016 /2017).</p>
 
-                            <div class="coupon-meta"><span class="coupon-time">5 days 46 h remaining</span>
+                            <div class="coupon-meta"><span class="coupon-time">5 days 46 h remaining</span>Ronald Windwaai
                                 <div class="coupon-price"><span class="coupon-old-price"></span><span class="coupon-new-price">BET</span>
                                 </div>
                             </div>
@@ -304,12 +304,13 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="{{asset('/assets/img/aspen_lounge_chair_800x600.jpg')}}" alt="Image Alternative text" title="Aspen Lounge Chair" />
+                        <img src="{{asset('/assets/img/game_profile/geingob.jpg')}}" alt="Image Alternative text" title="Gamer Chick" />
                         <div class="coupon-inner">
-                            <h5 class="coupon-title">Aspen Lounge Chair</h5>
-                            <p class="coupon-desciption">A ante ipsum curabitur diam nascetur gravida penatibus</p>
-                            <div class="coupon-meta"><span class="coupon-time">10 days 10 h remaining</span><span class="coupon-save">Save 40%</span>
-                                <div class="coupon-price"><span class="coupon-old-price">815$</span><span class="coupon-new-price">489$</span>
+                            <h5 class="coupon-title">WILL THE HARAMBEE PROSPERITY PLAN SUCCEED</h5>
+                            <p class="coupon-desciption">Custom Bet - 01 Jan 2017 12:00 CAT <br/>I bet that the Harambee Properity Plan will create 10 000 jobs by the year 2017</p>
+
+                            <div class="coupon-meta"><span class="coupon-time">1 Year 2 Months 5 days 46 h remaining</span>Wensey Khoases
+                                <div class="coupon-price"><span class="coupon-old-price"></span><span class="coupon-new-price">BET</span>
                                 </div>
                             </div>
                         </div>
