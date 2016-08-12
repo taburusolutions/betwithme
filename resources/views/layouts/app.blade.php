@@ -32,7 +32,7 @@
     <div class="container">
         <div class="row">
             <div class="span2">
-                <a href="index-2.html">
+                <a href="/">
                     <img src="{{asset('/assets/img/logo-small.png')}}" alt="logo" title="logo" class="logo">
                 </a>
             </div>
@@ -48,6 +48,9 @@
                             </li>
                             <li><a href="#">Upcoming Matches</a>
                                 
+                            </li>
+                            <li><a href="#">Completed Matches</a>
+
                             </li>
                             <li><a href="#">Contact</a>
                             </li>
@@ -256,12 +259,13 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="{{asset('/assets/img/player/player.png')}}" alt="Player" title="Player" />
+                        <img src="{{asset('/assets/img/game_profile/hillary_clinton.jpg')}}" alt="Player" title="Player" />
                         <div class="coupon-inner">
-                            <h5 class="coupon-title">HILLARY WILL WIN</h5>
+                            <h5 class="coupon-title">HILLARY CLINTON WILL WIN 2016 PRESIDENTIAL RACE..</h5>
+
                             <p class="coupon-desciption">Custom Bet - 01 Jan 2017 12:00 CAT <br/>I bet that Hillary Clinton will win the 2016 USA Presential Race.</p>
 
-                            <div class="coupon-meta"><span class="coupon-time">5 days 46 h remaining</span>
+                            <div class="coupon-meta"><span class="coupon-time">5 days 46 h remaining</span>Ronald Windwaai
                                 <div class="coupon-price"><span class="coupon-old-price"></span><span class="coupon-new-price">BET</span>
                                 </div>
                             </div>
@@ -271,9 +275,9 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="{{asset('/assets/img/player/player2.png')}}" alt="Image Alternative text" title="Gamer Chick" />
+                        <img src="{{asset('/assets/img/game_profile/geingob.jpg')}}" alt="Image Alternative text" title="Gamer Chick" />
                         <div class="coupon-inner">
-                            <h5 class="coupon-title">Violin Lessons</h5>
+                            <h5 class="coupon-title">Harambee Prosperity Plan</h5>
                             <p class="coupon-desciption">Nec varius ante aptent augue dictumst lacinia at</p>
                             <div class="coupon-meta"><span class="coupon-time">10 days 35 h remaining</span><span class="coupon-save">Save 40%</span>
                                 <div class="coupon-price"><span class="coupon-old-price">272$</span><span class="coupon-new-price">163$</span>
@@ -285,12 +289,13 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="{{asset('/assets/img/player/player3.png')}}" alt="Image Alternative text" title="Gamer Chick" />
+                        <img src="{{asset('/assets/img/game_profile/liverpool_fc.jpg')}}" alt="Image Alternative text" title="Gamer Chick" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">LIVERPOOL FC WILL WIN THE LEAGUE</h5>
-                            <p class="coupon-desciption">Habitasse feugiat commodo posuere nascetur lorem adipiscing cursus</p>
-                            <div class="coupon-meta"><span class="coupon-time">7 days 25 h remaining</span><span class="coupon-save">Save 75%</span>
-                                <div class="coupon-price"><span class="coupon-old-price">263$</span><span class="coupon-new-price">66$</span>
+                            <p class="coupon-desciption">Custom Bet - 01 Jan 2017 12:00 CAT <br/>I bet that Liverpool FC will finally win the Barclays Premier League(2016 /2017).</p>
+
+                            <div class="coupon-meta"><span class="coupon-time">5 days 46 h remaining</span>
+                                <div class="coupon-price"><span class="coupon-old-price"></span><span class="coupon-new-price">BET</span>
                                 </div>
                             </div>
                         </div>
@@ -313,7 +318,7 @@
                 <div class="span3">
                     <!-- COUPON THUMBNAIL -->
                     <a href="#" class="coupon-thumb">
-                        <img src="{{asset('/assets/img/waipio_valley_800x600.jpg')}}" alt="Image Alternative text" title="waipio valley" />
+                        <img src="{{asset('/assets/img/game_profile/hillary_clinton.jpg')}}" alt="Image Alternative text" title="waipio valley" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">Awesome Vacation</h5>
                             <p class="coupon-desciption">Facilisis pulvinar orci in eget lacinia pulvinar habitasse</p>
