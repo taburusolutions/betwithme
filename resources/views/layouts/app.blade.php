@@ -158,14 +158,15 @@
     <!-- START BOOTSTRAP CAROUSEL -->
     <div id="my-carousel" class="carousel slide">
         <div class="carousel-inner">
-            <div class="item">
+            <div class="active item">
+                <img src="{{asset('/assets/img/slides/hull-city-v-leicester-city-2016.jpg')}}" alt="Hull City v/s Leicester City" title="Hull City v/s Leicester City" />
                 <div class="carousel-caption countdown-caption">
                     <h3>Hull City v/s Leicester City</h3>
                     <!-- COUNTDOWN -->
                     <div data-countdown="Aug 13, 2016 12:30" class="countdown"></div><a href="#" class="btn btn-primary btn-large">Bet</a>
                 </div>
             </div>
-            <div class="active item">
+            <div class="item">
                 <img src="{{asset('/assets/img/slides/liverpool-v-arsenal-2016.jpg')}}" alt="Arsenal FC v/s Liverpool FC" title="Arsenal FC v/s Liverpool FC" />
                 <div class="carousel-caption countdown-caption">
                     <h3>Arsenal FC v/s Liverpool FC</h3>
@@ -194,7 +195,7 @@
     <div class="container">
         <div class="row-fluid">
             <div class="span8">
-                <label>
+                <label></label>
                 <div class="search-area-division search-area-division-input">
 
                 </div>
@@ -233,23 +234,17 @@
                 </li>
                 <li><a href="#"><i class="icon-food"></i>Football / Soccer</a>
                 </li>
+                <li><a href="#"><i class="icon-bolt"></i>Politics</a>
+                </li>
+                <li><a href="#"><i class="icon-headphones"></i>Boxing</a>
+                </li>
                 <li><a href="#"><i class="icon-calendar"></i>Rugby</a>
                 </li>
                 <li><a href="#"><i class="icon-female"></i>Tennis</a>
                 </li>
-                <li><a href="#"><i class="icon-bolt"></i>Politics</a>
+                <li><a href="#"><i class="icon-picture"></i>Cricket</a>
                 </li>
-                <li><a href="#"><i class="icon-headphones"></i>Electronics</a>
-                </li>
-                <li><a href="#"><i class="icon-picture"></i>Furniture</a>
-                </li>
-                <li><a href="#"><i class="icon-umbrella"></i>Fashion</a>
-                </li>
-                <li><a href="#"><i class="icon-shopping-cart"></i>Shopping</a>
-                </li>
-                <li><a href="#"><i class="icon-home"></i>Home & Garden</a>
-                </li>
-                <li><a href="#"><i class="icon-plane"></i>Travel</a>
+                <li><a href="#"><i class="icon-umbrella"></i>Social</a>
                 </li>
             </ul>
         </div>
@@ -262,7 +257,7 @@
                         <div class="coupon-inner">
                             <h5 class="coupon-title">HILLARY CLINTON WILL WIN 2016 PRESIDENTIAL RACE..</h5>
 
-                            <p class="coupon-desciption">Custom Bet - 01 Jan 2017 12:00 CAT <br/>I bet that Hillary Clinton will win the 2016 USA Presential Race.</p>
+                            <p class="coupon-desciption">Politics Bet - 01 Jan 2017 12:00 CAT <br/>I bet that Hillary Clinton will win the 2016 USA Presential Race.</p>
 
                             <div class="coupon-meta"><span class="coupon-time">5 days 46 h remaining</span>Ronald Windwaai
                                 <div class="coupon-price"><span class="coupon-old-price"></span><span class="coupon-new-price">BET</span>
@@ -292,9 +287,39 @@
                         <img src="{{asset('/assets/img/game_profile/liverpool_fc.jpg')}}" alt="Image Alternative text" title="Gamer Chick" />
                         <div class="coupon-inner">
                             <h5 class="coupon-title">LIVERPOOL FC WILL WIN THE LEAGUE</h5>
-                            <p class="coupon-desciption">Custom Bet - 01 Jan 2017 12:00 CAT <br/>I bet that Liverpool FC will finally win the Barclays Premier League(2016 /2017).</p>
+                            <p class="coupon-desciption">Sport Bet - 01 Jan 2017 12:00 CAT <br/>I bet that Liverpool FC will finally win the Barclays Premier League(2016 /2017).</p>
 
                             <div class="coupon-meta"><span class="coupon-time">5 days 46 h remaining</span>Ronald Windwaai
+                                <div class="coupon-price"><span class="coupon-old-price"></span><span class="coupon-new-price">BET</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="span3">
+                    <!-- COUPON THUMBNAIL -->
+                    <a href="#" class="coupon-thumb">
+                        <img src="{{asset('/assets/img/game_profile/geingob.jpg')}}" alt="Image Alternative text" title="Gamer Chick" />
+                        <div class="coupon-inner">
+                            <h5 class="coupon-title">WILL THE HARAMBEE PROSPERITY PLAN SUCCEED</h5>
+                            <p class="coupon-desciption">Politics Bet - 01 Jan 2017 12:00 CAT <br/>I bet that the Harambee Properity Plan will create 10 000 jobs by the year 2017</p>
+
+                            <div class="coupon-meta"><span class="coupon-time">1 Year 2 Months 5 days 46 h remaining</span>Wensey Khoases
+                                <div class="coupon-price"><span class="coupon-old-price"></span><span class="coupon-new-price">BET</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="span3">
+                    <!-- COUPON THUMBNAIL -->
+                    <a href="#" class="coupon-thumb">
+                        <img src="{{asset('/assets/img/game_profile/geingob.jpg')}}" alt="Image Alternative text" title="Gamer Chick" />
+                        <div class="coupon-inner">
+                            <h5 class="coupon-title">WILL THE HARAMBEE PROSPERITY PLAN SUCCEED</h5>
+                            <p class="coupon-desciption">Politics Bet - 01 Jan 2017 12:00 CAT <br/>I bet that the Harambee Properity Plan will create 10 000 jobs by the year 2017</p>
+
+                            <div class="coupon-meta"><span class="coupon-time">1 Year 2 Months 5 days 46 h remaining</span>Wensey Khoases
                                 <div class="coupon-price"><span class="coupon-old-price"></span><span class="coupon-new-price">BET</span>
                                 </div>
                             </div>
@@ -311,34 +336,6 @@
 
                             <div class="coupon-meta"><span class="coupon-time">1 Year 2 Months 5 days 46 h remaining</span>Wensey Khoases
                                 <div class="coupon-price"><span class="coupon-old-price"></span><span class="coupon-new-price">BET</span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="span3">
-                    <!-- COUPON THUMBNAIL -->
-                    <a href="#" class="coupon-thumb">
-                        <img src="{{asset('/assets/img/game_profile/hillary_clinton.jpg')}}" alt="Image Alternative text" title="waipio valley" />
-                        <div class="coupon-inner">
-                            <h5 class="coupon-title">Awesome Vacation</h5>
-                            <p class="coupon-desciption">Facilisis pulvinar orci in eget lacinia pulvinar habitasse</p>
-                            <div class="coupon-meta"><span class="coupon-time"> 5 h remaining</span><span class="coupon-save">Save 45%</span>
-                                <div class="coupon-price"><span class="coupon-old-price">427$</span><span class="coupon-new-price">235$</span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="span3">
-                    <!-- COUPON THUMBNAIL -->
-                    <a href="#" class="coupon-thumb">
-                        <img src="{{asset('/assets/img/ana_29_800x600.jpg')}}" alt="Image Alternative text" title="Ana 29" />
-                        <div class="coupon-inner">
-                            <h5 class="coupon-title">Hot Summer Collection</h5>
-                            <p class="coupon-desciption">Nostra odio ridiculus lacinia erat semper mattis auctor</p>
-                            <div class="coupon-meta"><span class="coupon-time">10 days 55 h remaining</span><span class="coupon-save">Save 60%</span>
-                                <div class="coupon-price"><span class="coupon-old-price">531$</span><span class="coupon-new-price">212$</span>
                                 </div>
                             </div>
                         </div>
