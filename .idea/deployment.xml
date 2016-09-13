@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="BETA.BETWITHME.ONLINE">
+  <component name="PublishConfigData" serverName="BETA.BETWITHME.ONLINE" uploadOnCheckin="d95cc0f7-507c-4078-a8e5-fc9008165e83">
     <serverData>
       <paths name="BETA.BETWITHME.ONLINE">
         <serverdata>
@@ -9,6 +9,21 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="LaravelAuth">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="SADC PF Beta">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="BETA.BETWITHME.ONLINE" />
   </component>
 </project>

@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/redirect/{provider}', ['uses' => 'SocialAuthController@redirect', 'as' => 'social.login']);
+Route::get('callback/{provider}', 'SocialAuthController@callback');
+/*Route::auth();
+
+Route::get('/home', 'HomeController@index');*/

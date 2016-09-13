@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="d95cc0f7-507c-4078-a8e5-fc9008165e83" name="BETA.BETWITHME.ONLINE" url="http://beta.betwithme.online">
-        <fileTransfer host="beta.betwithme.online" port="22" rootFolder="/home/betwithm/beta" accessType="SFTP" password="dfe1dfcbdfc4dfd3dfcbdf9adf9ddf9adf93" username="betwithm">
+        <fileTransfer host="23.92.65.79" port="22" rootFolder="/home/betwithm/beta" accessType="SFTP" password="dfe1dfcbdfc4dfd3dfcbdf9adf9ddf9adf93" username="betwithm">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
