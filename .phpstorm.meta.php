@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2016-08-18.
+    * Generated on 2016-09-15.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -339,7 +339,7 @@ namespace PHPSTORM_META {
             'blade.compiler' instanceof \Illuminate\View\Compilers\BladeCompiler,
             'Laravel\Socialite\Contracts\Factory' instanceof \Laravel\Socialite\SocialiteManager,
         ],
-        app('') => [
+        \app('') => [
             '' == '@',
             'events' instanceof \Illuminate\Events\Dispatcher,
             'router' instanceof \Illuminate\Routing\Router,
