@@ -59,9 +59,9 @@
                 <input type="checkbox">Remember me
             </label>
             <input type="submit" value="Login in" class="btn btn-primary"/><br/>
-            <a href="http://localhost/betwithme.online/redirect/facebook" class="btn btn-primary social-login google">Sign in with Google</a>
-            <a href="http://localhost/betwithme.online/redirect/facebook" class="btn btn-primary social-login facebook">Sign in with Facebook</a>
-            <a href="http://localhost/betwithme.online/redirect/facebook" class="btn btn-primary social-login twitter">Sign in with Twitter</a></form>
+            <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-primary social-login google" target="_blank">Sign in with Google</a>
+            <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-primary social-login facebook" target="_blank">Sign in with Facebook</a>
+            <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-primary social-login twitter" target="_blank">Sign in with Twitter</a></form>
     </div>
     <ul class="dialog-alt-links">
         <li><a class="popup-text" href="#register-dialog" data-effect="mfp-zoom-out">Not member yet</a>
@@ -98,9 +98,9 @@
                 <input type="checkbox">Get hot offers via e-mail
             </label>
             <input type="submit" value="Sign up" class="btn btn-primary"><br/>
-            <input type="submit" value="Sign up with Google" class="btn btn-primary social-login google">
-            <input type="submit" value="Sign up with Facebook" class="btn btn-primary social-login facebook">
-            <input type="submit" value="Sign up with Twitter" class="btn btn-primary social-login twitter">
+            <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-primary social-login google" target="_blank">Sign in with Google</a>
+            <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-primary social-login facebook" target="_blank">Sign in with Facebook</a>
+            <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-primary social-login twitter" target="_blank">Sign in with Twitter</a></form>
         </form>
     </div>
     <ul class="dialog-alt-links">

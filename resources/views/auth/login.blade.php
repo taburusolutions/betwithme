@@ -23,7 +23,8 @@
                     <p><a href="{{ route('auth.password') }}">Forgot password?</a></p>
 
                     <p class="or-social">Or Use Social Login</p>
-
+                    <a href="{{ route('social.redirect', ['provider' => 'google']) }}"
+                       class="btn btn-lg btn-primary btn-block google" type="submit">Google</a>
                     <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}"
                        class="btn btn-lg btn-primary btn-block facebook" type="submit">Facebook</a>
                     <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}"

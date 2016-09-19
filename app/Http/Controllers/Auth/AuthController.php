@@ -104,7 +104,7 @@ class AuthController extends Controller {
     {
         $providerKey = \Config::get('services.' . $provider);
         if(empty($providerKey))
-            return view('pages.status')
+            return view('includes.status')
                 ->with('error','No such provider');
 
         return Socialite::driver( $provider )->redirect();
