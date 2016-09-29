@@ -2,6 +2,20 @@
 
 $s = 'public.';
 Route::get('/',         ['as' => $s . 'home',   'uses' => 'PagesController@getHome']);
+Route::get('/how_it_works',         ['as' => $s . 'how_it_works',   'uses' => 'PagesController@getHowItWorks']);
+Route::get('/upcoming_matches',         ['as' => $s . 'upcoming_matches',   'uses' => 'PagesController@getUpcomingMatches']);
+Route::get('/completed_matches',         ['as' => $s . 'completed_matches',   'uses' => 'PagesController@getCompletedMatches']);
+Route::get('/contact_us',         ['as' => $s . 'contact_us',   'uses' => 'PagesController@getContactUs']);
+Route::get('/category/{category}',   ['as' => $s . 'category',   'uses' => 'PagesController@getCategory']);
+Route::get('/category/{category}/betid/{betid}',   ['as' => $s . 'bets',   'uses' => 'PagesController@getSingleBet']);
+
+
+$d = 'dashboard.';
+Route::get('/dashboard',         ['as' => $d . 'dashboard',   'uses' => 'PagesController@getDashboard']);
+Route::get('/settings',         ['as' => $d . 'settings',   'uses' => 'PagesController@getSettings']);
+Route::get('/friends',         ['as' => $d . 'friends',   'uses' => 'PagesController@getFriends']);
+
+
 
 $a = 'auth.';
 Route::get('/login',            ['as' => $a . 'login',          'uses' => 'Auth\AuthController@getLogin']);

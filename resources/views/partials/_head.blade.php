@@ -3,7 +3,7 @@
 <head>
     <title>
         @section('title')
-            {{'Welcome - Betwithme'}}
+            {{'Welcome :: Betwithme'}}
         @show
     </title>
     <!-- meta info -->
@@ -26,4 +26,4 @@
     <!--<link rel="stylesheet" type="text/css" href="/betwithme.online/assets/css/ie.css" />-->
     <![endif]-->
 </head>
-<body>
+<body class="sticky-header sticky-search">

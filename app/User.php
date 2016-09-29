@@ -24,6 +24,25 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    public static $rules = [
+        'first_name'            => 'required',
+        'last_name'             => 'required',
+        'email'                 => 'required|email|unique:users',
+        'password'              => 'required|min:6|max:20',
+        'password_confirmation' => 'required|same:password'
+    ];
+
+    public static $messages = [
+        'first_name.required'   => 'First Name is required',
+        'last_name.required'    => 'Last Name is required',
+        'email.required'        => 'Email is required',
+        'email.email'           => 'Email is invalid',
+        'password.required'     => 'Password is required',
+        'password.min'          => 'Password needs to have at least 6 characters',
+        'password.max'          => 'Password maximum length is 20 characters'
+    ];
+
+
     public function roles()
     {
         return $this->belongsToMany('App\Models\Role')->withTimestamps();

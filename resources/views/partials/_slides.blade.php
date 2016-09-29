@@ -2,7 +2,7 @@
     <div class="row row-wrap">
         <div class="span3">
             <!-- COUPON THUMBNAIL -->
-            <a href="#" class="coupon-thumb">
+            <a href="{{ route('public.bets', ['category' => 'politics','betid' => 'politics']) }}" class="coupon-thumb">
                 <img src="{{asset('/assets/img/game_profile/hillary_clinton.jpg')}}" alt="Player" title="Player" />
                 <div class="coupon-inner">
                     <h5 class="coupon-title">HILLARY CLINTON WILL WIN 2016 PRESIDENTIAL RACE..</h5>

@@ -5,32 +5,11 @@
     <div class="container">
         <div class="row">
             <div class="span2">
-                <a href="/">
+                <a href="{{ route('public.home')}}/">
                     <img src="{{asset('/assets/img/logo-small.png')}}" alt="logo" title="logo" class="logo">
                 </a>
             </div>
-            <div class="span8">
-                <!-- MAIN NAVIGATION -->
-                <div class="flexnav-menu-button" id="flexnav-menu-button">Menu</div>
-                <nav>
-                    <ul class="nav nav-pills flexnav" id="flexnav" data-breakpoint="800">
-                        <li class="active"><a href="#">Home</a>
-                        </li>
-                        <li><a href="#">How it works</a>
-
-                        </li>
-                        <li><a href="#">Upcoming Matches</a>
-
-                        </li>
-                        <li><a href="#">Completed Matches</a>
-
-                        </li>
-                        <li><a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- END MAIN NAVIGATION -->
-            </div>
+            @include('partials._main_menu')
             <div class="span2">
                 <!-- LOGIN REGISTER LINKS -->
                 <ul class="login-register">
@@ -124,9 +103,9 @@
 </div>
 <!-- END LOGIN REGISTER LINKS CONTENT -->
 
-
 <!-- TOP AREA -->
 <div class="top-area">
+    @if(Request::path() === '/')
     <!-- START BOOTSTRAP CAROUSEL -->
     <div id="my-carousel" class="carousel slide">
         <div class="carousel-inner">
@@ -159,6 +138,13 @@
         <a class="carousel-control right" href="#my-carousel" data-slide="next"></a>
     </div>
     <!-- END BOOTSTRAP CAROUSEL -->
+    @else
+        <div class="top-title-area">
+            <div class="container">
+                <h1 class="title-page">{{$page_title}}</h1>
+            </div>
+        </div>
+    @endif
 </div>
 <!-- END TOP AREA -->
 
