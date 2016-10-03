@@ -4,6 +4,6 @@ class AdminController extends Controller {
 
     public function getHome()
     {
-        return view('panels.admin.home');
+        return view('pages.dashboard.activity_view');
     }
 }

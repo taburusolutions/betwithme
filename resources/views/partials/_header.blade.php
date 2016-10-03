@@ -29,18 +29,19 @@
     <h3>Member Login</h3>
     <h5>Welcome back, friend. Login to get started</h5>
     <div class="row-fluid">
-        <form class="dialog-form">
+            {!! Form::open(['url' => route('auth.login-post'), 'class' => 'dialog-form' ] ) !!}
             <label>E-mail</label>
-            <input type="text" placeholder="email@domain.com" class="span12">
+            {!! Form::email('email', null, ['class' => 'span12', 'placeholder' => 'email@domain.com', 'required', 'autofocus', 'id' => 'inputEmail' ]) !!}
             <label>Password</label>
-            <input type="password" placeholder="My secret password" class="span12">
+            {!! Form::password('password', ['class' => 'span12', 'placeholder' => 'Password', 'required',  'id' => 'inputPassword' ]) !!}
             <label class="checkbox">
-                <input type="checkbox">Remember me
+                {!! Form::checkbox('remember', 1) !!}Remember me
             </label>
             <input type="submit" value="Login in" class="btn btn-primary"/><br/>
             <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-primary social-login google" target="_blank">Sign in with Google</a>
             <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-primary social-login facebook" target="_blank">Sign in with Facebook</a>
-            <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-primary social-login twitter" target="_blank">Sign in with Twitter</a></form>
+            <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-primary social-login twitter" target="_blank">Sign in with Twitter</a>
+        {!! Form::close() !!}
     </div>
     <ul class="dialog-alt-links">
         <li><a class="popup-text" href="#register-dialog" data-effect="mfp-zoom-out">Not member yet</a>
@@ -56,13 +57,22 @@
     <h3>Member Register</h3>
     <h5>Ready to get best offers? Let's get started!</h5>
     <div class="row-fluid">
-        <form class="dialog-form">
-            <label>E-mail</label>
-            <input type="text" placeholder="email@domain.com" class="span12">
-            <label>Password</label>
-            <input type="password" placeholder="My secret password" class="span12">
-            <label>Repeat Password</label>
-            <input type="password" placeholder="Type your password again" class="span12">
+        {!! Form::open(['url' => route('auth.register-post'), 'class' => 'dialog-form' ] ) !!}
+        <label>E-mail</label>
+        {!! Form::email('email', null, ['class' => 'span12', 'placeholder' => 'email@domain.com', 'required', 'autofocus', 'id' => 'inputEmail' ]) !!}
+        <label for="inputFirstName" class="sr-only">First name</label>
+        {!! Form::text('first_name', null, ['class' => 'span12', 'placeholder' => 'First name', 'required', 'id' => 'inputFirstName' ]) !!}
+
+        <label for="inputLastName" class="sr-only">Last name</label>
+        {!! Form::text('last_name', null, ['class' => 'span12', 'placeholder' => 'Last name', 'required', 'id' => 'inputLastName' ]) !!}
+
+        <label for="inputPassword" class="sr-only">Password</label>
+        {!! Form::password('password', ['class' => 'span12', 'placeholder' => 'Password', 'required',  'id' => 'inputPassword' ]) !!}
+
+        <label for="inputPasswordConfirm" class="sr-only">Repeat Password</label>
+        {!! Form::password('password_confirmation', ['class' => 'span12', 'placeholder' => 'Password confirmation', 'required',  'id' => 'inputPasswordConfirm' ]) !!}
+
+
             <div class="row-fluid">
                 <div class="span8">
                     <label>Your Area</label>
@@ -79,8 +89,8 @@
             <input type="submit" value="Sign up" class="btn btn-primary"><br/>
             <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-primary social-login google" target="_blank">Sign in with Google</a>
             <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-primary social-login facebook" target="_blank">Sign in with Facebook</a>
-            <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-primary social-login twitter" target="_blank">Sign in with Twitter</a></form>
-        </form>
+            <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-primary social-login twitter" target="_blank">Sign in with Twitter</a>
+        {!! Form::close() !!}
     </div>
     <ul class="dialog-alt-links">
         <li><a class="popup-text" href="#login-dialog" data-effect="mfp-zoom-out">Already member</a>
@@ -94,11 +104,11 @@
     <h3>Password Recovery</h3>
     <h5>Fortgot your password? Don't worry we can deal with it</h5>
     <div class="row-fluid">
-        <form class="dialog-form">
+        {!! Form::open(['url' => route('auth.password-post'), 'class' => 'dialog-form' ] ) !!}
             <label>E-mail</label>
-            <input type="text" placeholder="email@domain.com" class="span12">
+        {!! Form::email('email', null, ['class' => 'span12', 'placeholder' => 'email@domain.com', 'required', 'autofocus', 'id' => 'inputEmail' ]) !!}
             <input type="submit" value="Request new password" class="btn btn-primary">
-        </form>
+        {!! Form::close() !!}
     </div>
 </div>
 <!-- END LOGIN REGISTER LINKS CONTENT -->
@@ -141,7 +151,7 @@
     @else
         <div class="top-title-area">
             <div class="container">
-                <h1 class="title-page">{{$page_title}}</h1>
+                <h1 class="title-page">{{$page_title or ''}}</h1>
             </div>
         </div>
     @endif

@@ -10,7 +10,7 @@ class PasswordResetController extends Controller {
 
     public function getPasswordReset()
     {
-        return view('auth.password-reset');
+        return view('auth.passwords.password-reset');
     }
 
     public function postPasswordReset( UserRepository $userRepository)
@@ -45,7 +45,7 @@ class PasswordResetController extends Controller {
 
     public function getPasswordResetForm( $token )
     {
-        return view('auth.password-reset-form', compact('token'));
+        return view('auth.passwords.password-reset-form', compact('token'));
     }
 
     public function postPasswordResetForm( $token )

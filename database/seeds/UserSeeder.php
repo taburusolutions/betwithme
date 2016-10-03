@@ -19,18 +19,18 @@ class UserSeeder extends Seeder
         $userRole = Role::whereName('user')->first();
 
         $user = User::create(array(
-            'first_name'    => 'John',
-            'last_name'     => 'Doe',
-            'email'         => 'j.doe@codingo.me',
-            'password'      => Hash::make('password')
+            'first_name'    => 'Ronald',
+            'last_name'     => 'Windwaai',
+            'email'         => 'ronaldwindwaai@gmail.com',
+            'password'      => Hash::make('admin')
         ));
         $user->assignRole($adminRole);
 
         $user = User::create(array(
-            'first_name'    => 'Jane',
-            'last_name'     => 'Doe',
-            'email'         => 'jane.doe@codingo.me',
-            'password'      => Hash::make('janesPassword')
+            'first_name'    => 'Wensey',
+            'last_name'     => 'Khoases',
+            'email'         => 'wenseyk@gmail.com',
+            'password'      => Hash::make('mylove')
         ));
         $user->assignRole($userRole);
     }

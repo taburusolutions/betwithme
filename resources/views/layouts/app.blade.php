@@ -1,7 +1,6 @@
 @section('head')
     @include('partials._head')
 @show
-
 @section('header')
     @include('partials._header')
 @show

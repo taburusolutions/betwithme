@@ -1,33 +1,52 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Ronald
- * Date: 19/09/2016
- * Time: 12:06
- */
+<?php namespace App\Logic\User;
 
-namespace App\Logic\User;
-
+use App\Logic\Mailers\UserMailer;
 use App\Role;
 use App\User;
-use Hash;
+use App\Password;
+use Hash, Carbon\Carbon;
 
+class UserRepository {
 
-class UserRepository
-{
-    public function register($data)
+    protected $userMailer;
+
+    public function __construct( UserMailer $userMailer )
+    {
+        $this->userMailer = $userMailer;
+    }
+
+    public function register( $data )
     {
 
         $user = new User;
-        $user->email = $data['email'];
-        $user->first_name = ucfirst($data['first_name']);
-        $user->last_name = ucfirst($data['last_name']);
-        $user->password = Hash::make($data['password']);
+        $user->email            = $data['email'];
+        $user->first_name       = ucfirst($data['first_name']);
+        $user->last_name        = ucfirst($data['last_name']);
+        $user->password         = Hash::make($data['password']);
         $user->save();
 
         //Assign Role
         $role = Role::whereName('user')->first();
         $user->assignRole($role);
 
+    }
+
+    public function resetPassword( User $user  )
+    {
+        $token = sha1(mt_rand());
+        $password = new Password;
+        $password->email = $user->email;
+        $password->token = $token;
+        $password->created_at = Carbon::now();
+        $password->save();
+
+        $data = [
+            'first_name'    => $user->first_name,
+            'token'         => $token,
+            'subject'       => 'Example.com: Password Reset Link',
+            'email'         => $user->email
+        ];
+
+        $this->userMailer->passwordReset($user->email, $data);
     }
 }

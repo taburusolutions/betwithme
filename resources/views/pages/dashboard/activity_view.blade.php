@@ -11,8 +11,6 @@
 
                     <div class="pull-left">
                         <h1 class="title">Activity</h1></div>
-
-
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -28,7 +26,7 @@
 
                                     <div class="">
 
-                                        </p><br><h4>Profile Activity:</h4>
+                                        <br><h4>Profile Activity:</h4>
 
                                         <div class="enter_post col-md-12 col-sm-12 col-xs-12">
 

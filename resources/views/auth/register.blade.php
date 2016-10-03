@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title')
+    {{"Sign up"}}
+@endsection
 @section('content')
     <div class="span9">
         <div class="row row-wrap">
