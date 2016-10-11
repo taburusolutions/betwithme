@@ -29,7 +29,10 @@
     <h3>Member Login</h3>
     <h5>Welcome back, friend. Login to get started</h5>
     <div class="row-fluid">
-            {!! Form::open(['url' => route('auth.login-post'), 'class' => 'dialog-form' ] ) !!}
+        <div id="login-alert" class="alert alert-danger" style="display: none;">
+            <strong>Whoops!</strong> That is a wrong email or password, try again..<br><br>
+        </div>
+            {!! Form::open(['url' => route('auth.login-post'), 'class' => 'dialog-form','id' =>'login-form' ] ) !!}
             <label>E-mail</label>
             {!! Form::email('email', null, ['class' => 'span12', 'placeholder' => 'email@domain.com', 'required', 'autofocus', 'id' => 'inputEmail' ]) !!}
             <label>Password</label>
@@ -37,7 +40,7 @@
             <label class="checkbox">
                 {!! Form::checkbox('remember', 1) !!}Remember me
             </label>
-            <input type="submit" value="Login in" class="btn btn-primary"/><br/>
+            <input type="submit" value="Login in" id="login-button" class="btn btn-primary"/><br/>
             <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-primary social-login google" target="_blank">Sign in with Google</a>
             <a href="{{ route('social.redirect', ['provider' => 'facebook']) }}" class="btn btn-primary social-login facebook" target="_blank">Sign in with Facebook</a>
             <a href="{{ route('social.redirect', ['provider' => 'twitter']) }}" class="btn btn-primary social-login twitter" target="_blank">Sign in with Twitter</a>
@@ -181,7 +184,6 @@
     </div>
 </div>
 <!-- END SEARCH AREA -->
-
 <div class="gap"></div>
 
 <!-- //////////////////////////////////

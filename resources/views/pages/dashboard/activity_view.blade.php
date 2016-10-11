@@ -50,7 +50,7 @@
 
                                         <div class="uprofile_wall_posts col-md-12 col-sm-12 col-xs-12">
                                             <div class="pic-wrapper col-md-1 col-sm-1 col-xs-2 text-center">
-                                                <img src="data/profile/avatar-2.png" class="" alt="">
+                                                <img src="{{asset('/assets/dashboard/data/profile/avatar-2.png')}}" class="" alt="">
                                             </div>
                                             <div class="info-wrapper col-md-11 col-sm-11 col-xs-10">
                                                 <div class="username">
@@ -81,9 +81,9 @@
                                                 <div class="clearfix"></div>
                                                 <div class="comment">
                                                     <div class="pic-wrapper col-md-1 col-sm-1 col-xs-2 text-center">
-                                                        <img data-src-retina="data/profile/avatar-3.png"
-                                                             data-src="data/profile/avatar-3.png"
-                                                             src="data/profile/avatar-3.png" alt="">
+                                                        <img data-src-retina="data/profile/avatar-3.png')}}"
+                                                             data-src="{{asset('/assets/dashboard/data/profile/avatar-3.png')}}"
+                                                             src="{{asset('/assets/dashboard/data/profile/avatar-3.png')}}" alt="">
                                                     </div>
                                                     <div class="info-wrapper col-md-11 col-sm-11 col-xs-10">
                                                         <div class="username">
@@ -109,9 +109,9 @@
                                                 <div class="clearfix"></div>
                                                 <div class="comment">
                                                     <div class="pic-wrapper col-md-1 col-sm-1 col-xs-2 text-center">
-                                                        <img data-src-retina="data/profile/avatar-4.png"
-                                                             data-src="data/profile/avatar-4.png"
-                                                             src="data/profile/avatar-4.png" alt="">
+                                                        <img data-src-retina="data/profile/avatar-4.png')}}"
+                                                             data-src="{{asset('/assets/dashboard/data/profile/avatar-4.png')}}"
+                                                             src="{{asset('/assets/dashboard/data/profile/avatar-4.png')}}" alt="">
                                                     </div>
                                                     <div class="info-wrapper col-md-11 col-sm-11 col-xs-10">
                                                         <div class="username">
@@ -137,9 +137,9 @@
                                                 <div class="comment comment-input">
 
                                                     <div class="pic-wrapper col-md-1 col-sm-1 col-xs-2 text-center">
-                                                        <img data-src-retina="data/profile/profile.png"
-                                                             data-src="data/profile/profile.png"
-                                                             src="data/profile/profile.png" alt="">
+                                                        <img data-src-retina="data/profile/profile.png')}}"
+                                                             data-src="{{asset('/assets/dashboard/data/profile/profile.png')}}"
+                                                             src="{{asset('/assets/dashboard/data/profile/profile.png')}}" alt="">
                                                     </div>
                                                     <div class="info-wrapper col-md-11 col-sm-11 col-xs-10">
                                                         <div class="input-group primary  col-md-6">
@@ -159,7 +159,7 @@
 
                                         <div class="uprofile_wall_posts col-md-12 col-sm-12 col-xs-12">
                                             <div class="pic-wrapper col-md-1 col-sm-1 col-xs-2 text-center">
-                                                <img src="data/profile/avatar-1.png" class="" alt="">
+                                                <img src="{{asset('/assets/dashboard/data/profile/avatar-1.png')}}" class="" alt="">
                                             </div>
                                             <div class="info-wrapper col-md-11 col-sm-11 col-xs-10">
                                                 <div class="username">
@@ -190,9 +190,9 @@
                                                 <div class="clearfix"></div>
                                                 <div class="comment">
                                                     <div class="pic-wrapper col-md-1 col-sm-1 col-xs-2 text-center">
-                                                        <img data-src-retina="data/profile/avatar-2.png"
-                                                             data-src="data/profile/avatar-2.png"
-                                                             src="data/profile/avatar-2.png" alt="">
+                                                        <img data-src-retina="data/profile/avatar-2.png')}}"
+                                                             data-src="{{asset('/assets/dashboard/data/profile/avatar-2.png')}}"
+                                                             src="{{asset('/assets/dashboard/data/profile/avatar-2.png')}}" alt="">
                                                     </div>
                                                     <div class="info-wrapper col-md-11 col-sm-11 col-xs-10">
                                                         <div class="username">
@@ -218,9 +218,9 @@
                                                 <div class="clearfix"></div>
                                                 <div class="comment">
                                                     <div class="pic-wrapper col-md-1 col-sm-1 col-xs-2 text-center">
-                                                        <img data-src-retina="data/profile/avatar-3.png"
-                                                             data-src="data/profile/avatar-3.png"
-                                                             src="data/profile/avatar-3.png" alt="">
+                                                        <img data-src-retina="data/profile/avatar-3.png')}}"
+                                                             data-src="{{asset('/assets/dashboard/data/profile/avatar-3.png')}}"
+                                                             src="{{asset('/assets/dashboard/data/profile/avatar-3.png')}}" alt="">
                                                     </div>
                                                     <div class="info-wrapper col-md-11 col-sm-11 col-xs-10">
                                                         <div class="username">
@@ -246,9 +246,9 @@
                                                 <div class="comment comment-input">
 
                                                     <div class="pic-wrapper col-md-1 col-sm-1 col-xs-2 text-center">
-                                                        <img data-src-retina="data/profile/profile.png"
-                                                             data-src="data/profile/profile.png"
-                                                             src="data/profile/profile.png" alt="">
+                                                        <img data-src-retina="data/profile/profile.png')}}"
+                                                             data-src="{{asset('/assets/dashboard/data/profile/profile.png')}}"
+                                                             src="{{asset('/assets/dashboard/data/profile/profile.png')}}" alt="">
                                                     </div>
                                                     <div class="info-wrapper col-md-11 col-sm-11 col-xs-10">
                                                         <div class="input-group primary  col-md-6">
@@ -268,6 +268,7 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </section>
             </div>
         </section>

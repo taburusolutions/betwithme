@@ -1,6 +1,5 @@
 <div class='page-topbar '>
     <div class='logo-area'>
-
     </div>
     <div class='quick-area'>
         <div class='pull-left'>
@@ -305,7 +304,7 @@
                 <li class="profile">
                     <a href="#" data-toggle="dropdown" class="toggle">
                         <img src="{{asset('assets/dashboard/data/profile/profile-socialmedia.jpg')}}" alt="user-image" class="img-circle img-inline">
-                        <span>Mark Yurey <i class="fa fa-angle-down"></i></span>
+                        <span>{{ Auth::user()->first_name.' '.Auth::user()->last_name }} <i class="fa fa-angle-down"></i></span>
                     </a>
                     <ul class="dropdown-menu profile animated fadeIn">
                         <li>
@@ -327,7 +326,7 @@
                             </a>
                         </li>
                         <li class="last">
-                            <a href="ui-login.html">
+                            <a href="{{route('authenticated.logout')}}">
                                 <i class="fa fa-lock"></i>
                                 Logout
                             </a>

@@ -1,5 +1,3 @@
-
-
 <!-- CORE JS FRAMEWORK - START -->
 <script src="{{asset('assets/dashboard/js/jquery-1.11.2.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets/dashboard/js/jquery.easing.min.js')}}" type="text/javascript"></script>
@@ -11,7 +9,13 @@
 
 
 <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
-<script src="{{asset('assets/dashboard/plugins/jquery-ui/smoothness/jquery-ui.min.js')}}" type="text/javascript"></script> <script src="{{asset('assets/dashboard/plugins/sparkline-chart/jquery.sparkline.min.js')}}" type="text/javascript"></script><script src="{{asset('assets/dashboard/plugins/jvectormap/jquery-jvectormap-2.0.1.min.js')}}" type="text/javascript"></script><script src="{{asset('assets/dashboard/plugins/jvectormap/jquery-jvectormap-world-mill-en.js')}}" type="text/javascript"></script><script src="{{asset('assets/dashboard/js/soc-dashboard.js')}}" type="text/javascript"></script><!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
+<script src="{{asset('assets/dashboard/plugins/jquery-ui/smoothness/jquery-ui.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/dashboard/plugins/sparkline-chart/jquery.sparkline.min.js')}}" type="text/javascript"></script>
+<!--
+<script src="{{asset('assets/dashboard/plugins/jvectormap/jquery-jvectormap-2.0.1.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/dashboard/plugins/jvectormap/jquery-jvectormap-world-mill-en.js')}}" type="text/javascript"></script>
+-->
+<script src="{{asset('assets/dashboard/js/soc-dashboard.js')}}" type="text/javascript"></script><!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
 
 
 <!-- CORE TEMPLATE JS - START -->

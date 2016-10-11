@@ -15,7 +15,7 @@
             <div class="profile-details col-md-8 col-sm-8 col-xs-8">
 
                 <h3>
-                    <a href="ui-profile.html">Mark Yurey</a>
+                    <a href="ui-profile.html">{{ Auth::user()->first_name.' '.Auth::user()->last_name }}</a>
 
                     <!-- Available statuses: online, idle, busy, away and offline -->
                     <span class="profile-status online"></span>

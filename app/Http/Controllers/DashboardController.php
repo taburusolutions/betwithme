@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-class UserController extends Controller {
+class DashboardController extends Controller {
 
     public function getHome()
     {
